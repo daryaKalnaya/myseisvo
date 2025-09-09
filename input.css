@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Conthrax';
+    src: url('fonts/conthraxsemibold.otf') format('woff2'),
+         url('fonts/conthraxsemibold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'DinproMedium';
+    src: url('fonts/dinpro_medium.otf') format('woff2'),
+         url('fonts/dinpro_medium.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'DinproRegular';
+    src: url('fonts/dinpro_light.otf') format('woff2'),
+         url('fonts/dinpro_light.otf') format('woff');
+}
+.hero-title{
+    font-family: "Conthrax";
+    font-size: 88px;
+    line-height: 100%;
+}
+.hero-text{
+    font-size: 28px;
+    font-family: 'DinproRegular';
+}
+
+.nav_drop :last-child {
+    border:none;
+}
+
+.hero-main{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    width: 837px;
+    height: 413px;
+}
+.nav_drop{
+    width: 378px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.links_nav{
+    position: relative;
+    border-bottom: 2px;
+    border-style: solid;
+    padding-top: 7px;
+    padding-bottom: 13px;
+    left: 31px;
+    border-image: linear-gradient(80deg, rgba(221, 216, 175, 1), rgba(255, 255, 255, 1)) 1;
+}
+.hero-title-line{
+    font-family: "Conthrax";
+    font-size: 88px;
+    line-height: 100%;
+    border-bottom: 60px;
+    border-style: solid;
+    border-image: linear-gradient(80deg, rgba(221, 216, 175, 1), rgba(240, 238, 225, 1)) 1;
+    padding-bottom: 30px;
+}
